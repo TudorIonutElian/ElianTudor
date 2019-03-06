@@ -1,0 +1,25 @@
+{
+  "name": "eliantudor",
+  "version": "1.0.0",
+  "description": "My personal Web Page and my Web Developer Profile",
+  "main": "index.html",
+  "scripts": {
+    "test": "ETStart",
+    "build-css": "node-sass --include-path scss sass/style.scss   css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TudorIonutElian/ElianTudor.git"
+  },
+  "author": "Tudor Ionut Elian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TudorIonutElian/ElianTudor/issues"
+  },
+  "homepage": "https://github.com/TudorIonutElian/ElianTudor#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10"
+  }
+}
